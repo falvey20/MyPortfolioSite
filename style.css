@@ -1,0 +1,25 @@
+#navbar {
+    display: flex;
+    background-color: aquamarine;
+    position: fixed;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    margin-right: 2rem;
+}
+
+.projects-grid {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    .projects-grid {
+        display: flex;
+    }
+}
